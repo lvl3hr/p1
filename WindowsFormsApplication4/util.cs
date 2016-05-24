@@ -12,5 +12,6 @@ namespace WindowsFormsApplication4
     public class User
     {
         public static string Username;
+
     }
 }
