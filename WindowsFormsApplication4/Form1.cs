@@ -15,6 +15,9 @@ namespace WindowsFormsApplication4
         public int i = 0;
         
 
+
+
+
         public Form1()
         {
             InitializeComponent();
