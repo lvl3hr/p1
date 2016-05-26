@@ -38,6 +38,7 @@
             this.subToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,14 +95,14 @@
             this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.editToolStripMenuItem.Text = "Edit";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
             // subToolStripMenuItem
             // 
             this.subToolStripMenuItem.Name = "subToolStripMenuItem";
-            this.subToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.subToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.subToolStripMenuItem.Text = "Sub";
             // 
             // viewToolStripMenuItem
@@ -110,11 +111,19 @@
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(111, 229);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBox1);
@@ -140,6 +149,7 @@
         private System.Windows.Forms.ToolStripMenuItem subToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
