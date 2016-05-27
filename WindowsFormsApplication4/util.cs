@@ -8,7 +8,7 @@ namespace WindowsFormsApplication4
     public class util
     {
         int i = 19;//B1
-        int B = 0;
+        int B = 13;
         
     }
 
